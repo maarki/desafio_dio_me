@@ -1,0 +1,14 @@
+package main
+
+import "fmt"
+
+var ebulicaoK int = 373
+
+// formula C = K -273
+var convertKC = ebulicaoK - 273
+
+func main() {
+
+	fmt.Printf("O valor convertido para Celsius do ponto de ebulição é igual a %d ", convertKC)
+	
+}
